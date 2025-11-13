@@ -1,0 +1,78 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    color: white;
+}
+ 
+:root{
+    --purple: #270082;
+    --light-p: #281154;
+    
+}
+
+@font-face {
+    font-family: roboto ;
+    src: url(../assests/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: josefin ;
+    src: url(../assests/fonts/JosefinSans-Regular.ttf);
+}
+
+.top{
+background-color: var(--purple);
+}
+
+.roboto{
+    font-family: roboto, sans-serif ;
+}
+
+.josefin{
+    font-family: josefin, sans-serif;
+}
+.pad{
+    padding: 40px;
+}
+
+.pad4{
+    padding: 24px 24px 240px;
+    font-size: 2.4rem;
+    /* color: #c9b2ac; */
+}
+
+.img4{
+    background-image: url(../assests/images/imgi_4_hero_image.png);
+}
+.purple{
+    background-color: var(--light-p);
+}
+.pad5{
+    padding: 24px 24px 64px;
+}
+
+.pad6{
+    padding: 80px 0px 64px ;
+    
+}
+
+.img5{
+    background-image: url(../assests/images/imgi_5_video.png);
+}
+
+.pad7{
+    padding: 24px 0 300px;
+}
+
+.pad8{
+    padding: 64px 0px 40px;
+}
